@@ -8,6 +8,10 @@ Example scene:
 
 ![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_63.png)
 
+corresponding Depth map:
+
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_63.png)
+
 Intallation and Usage:
 
 -Download the latest blender build (script was tested on v2.72), install and open blender.
