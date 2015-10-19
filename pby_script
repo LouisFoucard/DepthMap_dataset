@@ -20,7 +20,7 @@ for n in tree.nodes:
     tree.nodes.remove(n)
     
     
-light = bpy.data.objects['Point']
+light = bpy.data.objects['Lamp']
 light.select = False
 camera = bpy.data.objects['Camera']
 camera.select = False
@@ -102,14 +102,14 @@ links.new(rl.outputs['Mist'],composite.inputs['Image'])
 
 scene.render.use_multiview = False
 
-scene.render.filepath = 'Google Drive/blender/Depth_map/DepthMap.png'
+scene.render.filepath = 'YourPath/DepthMap.png'
 bpy.ops.render.render( write_still=True ) 
 
 links.new(rl.outputs['Image'],composite.inputs['Image'])
 
 scene.render.use_multiview = True
 
-scene.render.filepath = 'Google Drive/blender/StereoImages/Stereoscopic.png'
+scene.render.filepath = 'YourPath/Stereoscopic.png'
 bpy.ops.render.render( write_still=True ) 
 
 
