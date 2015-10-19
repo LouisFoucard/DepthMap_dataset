@@ -12,7 +12,7 @@ corresponding Depth map:
 
 ![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_63.png)
 
-Intallation and Usage:
+Intallation:
 
 -Download the latest blender build (script was tested on v2.72), install and open blender.
 
@@ -21,6 +21,8 @@ Either open with blender the .blend file in the "blender file" folder, or ,alter
 -Change the display button on the bottom left (represented by a cube symbol, left of the view menu) to text editor.
 
 -Click new, then simply paste the contents of pby_script.
+
+Usage:
 
 -Change the saving path name "YourPath" at the end of the scipt to whatever directory you wish to save the output images and depth maps in
 
