@@ -4,7 +4,7 @@ pby_script is a Python Blender script for creating large numbers of randomized 3
 
 Blender is a open source 3D graphics and animation software, downloadable at "https://www.blender.org/". 
 
-Usage:
+Intallation and Usage:
 
 -Download the latest blender build (script was tested on v2.72), install and open blender.
 
