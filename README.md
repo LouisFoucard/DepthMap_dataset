@@ -16,6 +16,8 @@ Intallation and Usage:
 
 -Download the latest blender build (script was tested on v2.72), install and open blender.
 
+Either open with blender the .blend file in the "blender file" folder, or ,alternatively, do the following:
+
 -Change the display button on the bottom left (represented by a cube symbol, left of the view menu) to text editor.
 
 -Click new, then simply paste the contents of pby_script.
