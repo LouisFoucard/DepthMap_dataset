@@ -14,7 +14,7 @@ Usage:
 
 -Change the saving path name "YourPath" at the end of the scipt to whatever directory you wish to save the output images and depth maps in
 
--Click run script to generate a fiew random 3d scenes with corresponding depth map. 
+-Click run script to generate a few random 3d scenes with corresponding depth map. 
 
 In case of errors, open Blender from the terminal and the error message logs will display there.
 
