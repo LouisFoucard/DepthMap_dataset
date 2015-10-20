@@ -5,12 +5,13 @@ pby_script is a Python Blender script for creating large numbers of randomized 3
 Blender is a open source 3D graphics and animation software, downloadable at "https://www.blender.org/". 
 
 Example scene:
-Left:
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_50_L.png)
-Right:
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_50_L.png)
-corresponding Depth map:
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_50.png)
+
+Left
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_10_L.png)
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_10_R.png)Right
+
+and corresponding Depth map:
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_10.png)
 
 Intallation:
 
