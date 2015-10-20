@@ -4,14 +4,18 @@ from math import sin, cos, radians
 import random as rand
 
 #Output resolution (Stereoscopic images & depthmap)
-bpy.context.scene.render.resolution_x = 500
-bpy.context.scene.render.resolution_y = 250
+bpy.context.scene.render.resolution_x = 200
+bpy.context.scene.render.resolution_y = 100
 
 # Total number of set of stereoscopic images and depth maps
-total_scene_number = 100
+total_scene_number = 1000
+
+###################################
+#Start iteration to generate scenes
+###################################
 
 ii = 0
-#Start iteration to generate scenes
+
 while ii < total_scene_number:
     ii += 1
     #Clear data from previous scenes
@@ -33,8 +37,8 @@ while ii < total_scene_number:
     
     #setup lighting:
     light = bpy.data.objects['Lamp']
-    bpy.data.objects['Lamp'].data.use_shadow = False
-    bpy.data.objects['Lamp'].data.energy = 5.0
+    light.data.use_shadow = False
+    light.data.energy = 5.0
     light.select = False
 
     #setup camera:
