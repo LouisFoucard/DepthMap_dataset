@@ -54,7 +54,7 @@ while ii < total_scene_number:
     Cam_z = 3 + (0.5-rand.random())*2
     camera.location = (Cam_x,Cam_y,Cam_z)
     camera.data.stereo.convergence_distance = 10000
-    camera.data.lens = 15
+    camera.data.lens = 15 #(focal length)
     camera.data.stereo.interocular_distance = 0.3
     camera.select = False
     
