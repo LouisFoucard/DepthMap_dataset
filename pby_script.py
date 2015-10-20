@@ -3,12 +3,12 @@ from bpy import context
 from math import sin, cos, radians
 import random as rand
 
-bpy.context.scene.render.resolution_x = 200
-bpy.context.scene.render.resolution_y = 100
+bpy.context.scene.render.resolution_x = 500
+bpy.context.scene.render.resolution_y = 250
 
 
 ii = 0
-while ii < 500:
+while ii < 100:
     ii += 1
     for material in bpy.data.materials:
         material.user_clear();
