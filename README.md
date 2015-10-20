@@ -6,12 +6,12 @@ Blender is a open source 3D graphics and animation software, downloadable at "ht
 
 Example scene:
 
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_16_L.png)
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_16_R.png)
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_132_L.png)
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_132_R.png)
 
 and corresponding Depth map:
 
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_16.png)
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_132.png)
 
 Intallation:
 
