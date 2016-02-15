@@ -28,8 +28,6 @@ Usage:
 
 -Click run script to generate a few random 3d scenes with corresponding depth map. 
 
-In case of errors, open Blender from the terminal and the error message logs will display there.
-
 This is just a simple stater example, you can then play with the script to randomize the shapes, colors, locations, surface properties etc..
 
 
