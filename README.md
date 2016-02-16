@@ -6,12 +6,11 @@ Blender is a open source 3D graphics and animation software, downloadable at "ht
 
 Example scene:
 
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_132_L.png)
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_132_R.png)
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/StereoImages/Stereoscopic_190.png)
 
 and corresponding Depth map:
 
-![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_132.png)
+![alt tag](https://raw.github.com/LouisFoucard/DepthMap_dataset/master/Depth_map/DepthMap_190.png)
 
 Intallation:
 
@@ -28,8 +27,6 @@ Usage:
 -Change the saving path name "YourPath" at the end of the script to whatever directory you wish to save the output images and depth maps.
 
 -Click run script to generate a few random 3d scenes with corresponding depth map. 
-
-In case of errors, open Blender from the terminal and the error message logs will display there.
 
 This is just a simple stater example, you can then play with the script to randomize the shapes, colors, locations, surface properties etc..
 
