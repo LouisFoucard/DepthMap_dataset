@@ -8,7 +8,7 @@ bpy.context.scene.render.resolution_x = 200
 bpy.context.scene.render.resolution_y = 100
 
 # Total number of set of stereoscopic images and depth maps
-total_scene_number = 1
+total_scene_number = 10
 
 ###################################
 #Start iteration to generate scenes
