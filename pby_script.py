@@ -8,7 +8,7 @@ bpy.context.scene.render.resolution_x = 200
 bpy.context.scene.render.resolution_y = 100
 
 # Total number of set of stereoscopic images and depth maps
-total_scene_number = 1000
+total_scene_number = 1
 
 ###################################
 #Start iteration to generate scenes
@@ -56,6 +56,7 @@ while ii < total_scene_number:
     camera.data.stereo.convergence_distance = 10000
     camera.data.lens = 15 #(focal length)
     camera.data.stereo.interocular_distance = 0.3
+    dist = ((camera.location[0]-(-3.22))**(2)+(camera.location[1]-(8.0))**(2)+(camera.location[2]-(-5.425))**(2))**(1/2)
     camera.select = False
     
     #Remove objects from previsous scenes
@@ -87,7 +88,8 @@ while ii < total_scene_number:
     #minimum depth:
     scene.world.mist_settings.intensity = 0.0
     #maximum depth (can be changed depending on the scene geometry to normalize the depth map whatever the camera orientation and position is):
-    scene.world.mist_settings.depth = 19.2
+    scene.world.mist_settings.depth = dist
+    print(dist)
 
     #magnitude of the random variation of object placements:
     magn = 8;
